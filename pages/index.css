@@ -6,8 +6,6 @@
 @import url(../blocks/link/link.css);
 @import url(../blocks/link/_active/link_active.css);
 
-@import url(../blocks/hidden-title/hidden-title.css);
-
 /* Fonts */
 @import url(../fonts/Inter/inter.css);
 
@@ -35,6 +33,8 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
+@import url(../blocks/hidden-title/hidden-title.css);
+
 /* Places section*/
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__place/places__place.css);
@@ -52,6 +52,8 @@
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
+
+@import url(../blocks/no-wrap/no-wrap.css);
 
 /* Footer section */
 @import url(../blocks/footer/footer.css);
