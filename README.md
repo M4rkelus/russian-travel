@@ -1,6 +1,6 @@
 # Проект: Путешествие по России
 
-ссылку на GitHub Pages
+[ссылка на GitHub Pages](https://m4rkelus.github.io/russian-travel/index.html "ссылка на GitHub Pages")
 
 ---
 
