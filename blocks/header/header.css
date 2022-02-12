@@ -1,0 +1,32 @@
+.header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  margin: 0 auto 56px;
+  max-width: 1184px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 28px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .header {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 16px;
+  }
+}

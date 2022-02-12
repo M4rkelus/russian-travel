@@ -1,0 +1,41 @@
+.places {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 80px;
+  margin: 0 auto 92px;
+  max-width: 984px;
+  -webkit-transition: gap 0.5s ease-in-out, max-width 0.5s ease-in-out;
+  -o-transition: gap 0.5s ease-in-out, max-width 0.5s ease-in-out;
+  transition: gap 0.5s ease-in-out, max-width 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    max-width: 928px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .places {
+    gap: 73px;
+    max-width: 720px;
+  }
+}
+
+@media all and (max-width: 520px) {
+  .places {
+    gap: 50px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .places {
+    gap: 50px;
+    max-width: 320px;
+  }
+}
