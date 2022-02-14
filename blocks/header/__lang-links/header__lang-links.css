@@ -2,14 +2,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   gap: 18px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
 }
 
 @media all and (max-width: 520px) {
   .header__lang-links {
-    margin-top: 9px;
+    margin-top: 8px;
   }
 }

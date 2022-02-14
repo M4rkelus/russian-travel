@@ -1,9 +1,4 @@
 .lead__image {
+  display: block;
   max-width: 100%;
-}
-
-@media all and (max-width: 768px) {
-  .lead__image {
-    max-width: 100vw;
-  }
 }

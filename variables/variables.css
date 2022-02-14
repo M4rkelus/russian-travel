@@ -2,5 +2,5 @@
   --color-background: #2a2c2f;
   --color-text-1: #ffffff;
   --color-text-2: #aaaaaa;
-  --main-font: "Inter";
+  --main-font: Inter, Tahoma, sans-serif;
 }

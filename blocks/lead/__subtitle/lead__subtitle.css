@@ -6,31 +6,27 @@
   line-height: 1.2;
   font-weight: normal;
   text-align: center;
+  -webkit-transition: font-size 0.2s ease;
+  -o-transition: font-size 0.2s ease;
+  transition: font-size 0.2s ease;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
-    margin-bottom: 56px;
+    margin: 0 48px 56px;
   }
 }
 
 @media all and (max-width: 720px) {
   .lead__subtitle {
+    margin: 0 24px 56px;
     font-size: 4.6vw;
   }
 }
 
 @media all and (max-width: 320px) {
   .lead__subtitle {
-    margin-bottom: 40px;
-    width: 288px;
-    font-size: 16px;
-    line-height: 20px;
-  }
-}
-
-@media all and (max-width: 320px) {
-  .lead__subtitle {
+    margin: 0 16px 40px;
     width: 288px;
     font-size: 16px;
     line-height: 20px;

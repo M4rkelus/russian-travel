@@ -2,20 +2,44 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  margin: 0 auto 24px;
+  margin: 0 auto;
   min-height: 18px;
   max-width: 1184px;
+  padding: 92px 0 24px;
+  -webkit-transition: max-width 0.3s ease-in-out, padding 0.3s ease-in-out;
+  -o-transition: max-width 0.3s ease-in-out, padding 0.3s ease-in-out;
+  transition: max-width 0.3s ease-in-out, padding 0.3s ease-in-out;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    max-width: calc(100% - 48px * 2);
+  }
+}
+
+@media all and (max-width: 768px) {
+  .footer {
+    max-width: calc(100% - 24px * 2);
+    padding-top: 88px;
+  }
 }
 
 @media all and (max-width: 700px) {
   .footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    gap: 48px;
+    gap: 46px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .footer {
+    max-width: calc(100% - 16px * 2);
+    padding-top: 64px;
   }
 }

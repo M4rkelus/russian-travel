@@ -5,8 +5,18 @@
   letter-spacing: 1.5px;
   font-style: normal;
   font-size: 10px;
-  line-height: 14px;
+  line-height: 1.4;
   font-weight: normal;
-  -ms-flex-item-align: start;
-  align-self: flex-start;
+}
+
+@media all and (max-width: 768px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .lead__caption {
+    padding-left: 16px;
+  }
 }

@@ -1,22 +1,9 @@
 .page {
   margin: 0 auto;
   background-color: var(--color-background);
+  min-width: 320px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  overflow: hidden;
-  padding: 0 48px;
   font-family: var(--main-font);
   color: var(--color-text-1);
-}
-
-@media all and (max-width: 768px) {
-  .page {
-    padding: 0 24px;
-  }
-}
-
-@media all and (max-width: 320px) {
-  .page {
-    padding: 0 16px;
-  }
 }

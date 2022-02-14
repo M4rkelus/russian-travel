@@ -1,0 +1,47 @@
+.card {
+  display: grid;
+  grid-template-columns: minmax(calc(49.2% - 40px), 460px) minmax(
+      calc(50.8% - 40px),
+      484px
+    );
+  grid-template-rows: repeat(2, -webkit-min-content);
+  grid-template-rows: repeat(2, min-content);
+  grid-auto-rows: -webkit-min-content;
+  grid-auto-rows: min-content;
+  grid-template-areas:
+    "title website"
+    "image text";
+  grid-gap: 48px 40px;
+  max-width: 984px;
+  -webkit-transition: max-width 0.3s ease-in-out, grid-gap 0.3s ease-in-out;
+  -o-transition: max-width 0.3s ease-in-out, grid-gap 0.3s ease-in-out;
+  transition: max-width 0.3s ease-in-out, grid-gap 0.3s ease-in-out;
+  justify-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    grid-gap: 47px 31px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .card {
+    grid-gap: 48px 28px;
+  }
+}
+
+@media all and (max-width: 520px) {
+  .card {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, -webkit-min-content);
+    grid-template-rows: repeat(4, min-content);
+    grid-template-areas:
+      "title"
+      "website"
+      "image"
+      "text";
+    grid-gap: 32px;
+    max-width: 100%;
+  }
+}

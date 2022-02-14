@@ -14,11 +14,6 @@
 
 @media all and (max-width: 520px) {
   .intro__title {
-    font-size: 10vw;
-  }
-}
-@media all and (max-width: 520px) {
-  .intro__title {
     font-size: 32px;
     line-height: 1.09;
   }

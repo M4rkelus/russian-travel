@@ -1,0 +1,11 @@
+.card__website {
+  grid-area: website;
+  align-self: end;
+  justify-self: start;
+}
+
+@media all and (max-width: 320px) {
+  .card__website {
+    padding: 0 16px;
+  }
+}

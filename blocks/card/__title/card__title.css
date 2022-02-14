@@ -1,0 +1,47 @@
+.card__title {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 10px;
+  font-style: normal;
+  font-size: 72px;
+  line-height: 1.06;
+  font-weight: 900;
+  -webkit-transition: max-width 0.2s ease-in-out;
+  -o-transition: max-width 0.2s ease-in-out;
+  transition: max-width 0.2s ease-in-out;
+  justify-self: start;
+}
+
+@media screen and (max-width: 1024px) {
+  .card__title {
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .card__title {
+    font-size: 52px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card__title {
+    max-width: 340px;
+    font-size: 42px;
+  }
+}
+
+@media all and (max-width: 520px) {
+  .card__title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .card__title {
+    padding: 0 16px;
+  }
+}

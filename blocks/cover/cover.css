@@ -1,21 +1,13 @@
 .cover {
-  margin: 0 auto 92px;
+  margin: 0 auto;
+  padding: 0 48px;
+  -webkit-transition: padding 0.3s ease-in-out;
+  -o-transition: padding 0.3s ease-in-out;
+  transition: padding 0.3s ease-in-out;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    margin: 0 -48px 92px;
-  }
-}
-
-@media all and (max-width: 768px) {
-  .cover {
-    margin-bottom: 88px;
-  }
-}
-
-@media all and (max-width: 700px) {
-  .cover {
-    margin-bottom: 64px;
+    padding: 0;
   }
 }

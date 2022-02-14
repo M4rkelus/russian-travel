@@ -1,0 +1,13 @@
+.card__paragraph {
+  margin: 0;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.63;
+  font-weight: normal;
+}
+
+@media all and (max-width: 768px) {
+  .card__paragraph {
+    font-size: 16px;
+  }
+}

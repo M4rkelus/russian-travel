@@ -6,26 +6,27 @@
   line-height: 1.04;
   font-weight: 900;
   text-align: center;
+  -webkit-transition: font-size 0.2s ease;
+  -o-transition: font-size 0.2s ease;
+  transition: font-size 0.2s ease;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    margin: 0 48px 32px;
+  }
 }
 
 @media all and (max-width: 720px) {
   .lead__title {
-    font-size: 13vw;
+    font-size: 13.33vw;
+    margin: 0 24px 32px;
   }
 }
 
 @media all and (max-width: 520px) {
   .lead__title {
-    margin-bottom: 16px;
-    width: 288px;
-    font-size: 40px;
-    line-height: 44px;
-  }
-}
-
-@media all and (max-width: 320px) {
-  .lead__title {
-    width: 288px;
+    margin: 0 16px 16px;
     font-size: 40px;
     line-height: 44px;
   }

@@ -7,6 +7,9 @@
   line-height: 22px;
   font-weight: normal;
   text-align: center;
+  -webkit-transition: font-size 0.3s ease-in-out;
+  -o-transition: font-size 0.3s ease-in-out;
+  transition: font-size 0.3s ease-in-out;
 }
 
 @media all and (max-width: 768px) {

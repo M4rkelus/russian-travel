@@ -7,6 +7,9 @@
   line-height: 76px;
   font-weight: 900;
   text-align: center;
+  -webkit-transition: font-size 0.3s ease-in-out;
+  -o-transition: font-size 0.3s ease-in-out;
+  transition: font-size 0.3s ease-in-out;
 }
 
 @media all and (max-width: 768px) {
@@ -16,7 +19,7 @@
   }
 }
 
-@media all and (max-width: 320px), (max-width: 520px) {
+@media all and (max-width: 520px) {
   .cover__title {
     margin-bottom: 16px;
   }
@@ -24,7 +27,6 @@
 
 @media all and (max-width: 320px) {
   .cover__title {
-    margin-bottom: 16px;
     font-size: 32px;
     line-height: 1.09;
   }

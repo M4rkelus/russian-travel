@@ -1,16 +1,20 @@
 .intro {
-  margin: 0 auto 92px;
+  margin: 0 auto;
   max-width: 984px;
+  padding: 0 48px 92px;
+  -webkit-transition: padding 0.3s ease-in-out;
+  -o-transition: padding 0.3s ease-in-out;
+  transition: padding 0.3s ease-in-out;
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    margin-bottom: 88px;
+    padding: 0 24px 88px;
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 320px) {
   .intro {
-    margin-bottom: 64px;
+    padding: 0 16px 64px;
   }
 }
