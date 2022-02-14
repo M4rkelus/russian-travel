@@ -12,6 +12,8 @@
     cover;
   min-height: 740px;
   max-width: 1184px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0 16px;
   text-decoration: none;
   color: inherit;
